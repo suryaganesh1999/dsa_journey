@@ -1,0 +1,10 @@
+Installing turicreate
+!pip install -U turicreate
+
+Upload the zip files to colab
+Copy the zip file path in colab
+Run the below code to unzip
+
+from zipfile import ZipFile
+with ZipFile("your_path_to_zip_file", 'r')  as zip:
+    zip.extractall()

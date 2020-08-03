@@ -25,5 +25,5 @@ def check_matching(words, pattern):
 words = ["leet", "abcd", "loot", "geek",
 			"cool", "for", "peer", "dear", "seed",
 			"meet", "noon", "otto", "mess", "loss"]
-pattern = "moon"
+pattern = "moom"
 check_matching(words, pattern)
